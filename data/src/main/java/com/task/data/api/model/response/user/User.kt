@@ -1,0 +1,71 @@
+package com.task.data.api.model.response.user
+
+import com.squareup.moshi.Json
+
+data class User(
+    @field:Json(name = "EMP_ID")
+    val EMP_ID :Int?,
+    @field:Json(name = "CUSTOM_ID")
+    val CUSTOM_ID :String?,
+    @field:Json(name = "EMP_DATA_AR")
+    val EMP_DATA_AR :String?,
+    @field:Json(name = "EMP_DATA_EN")
+    val EMP_DATA_EN :String?,
+    @field:Json(name = "JOBCODE")
+    val JOBCODE :String?,
+    @field:Json(name = "JOBNAME_AR")
+    val JOBNAME_AR :String?,
+    @field:Json(name = "JOBNAME_EN")
+    val JOBNAME_EN :String?,
+    @field:Json(name = "SEC_NAME_AR")
+    val SEC_NAME_AR :String?,
+    @field:Json(name = "SEC_NAME_EN")
+    val SEC_NAME_EN :String?,
+    @field:Json(name = "CONTRACTSTDATE")
+    val CONTRACTSTDATE :String?,
+    @field:Json(name = "ATM_ACCOUNT")
+    val ATM_ACCOUNT :String?,
+    @field:Json(name = "MAR_STATUS_EN")
+    val MAR_STATUS_EN :String?,
+    @field:Json(name = "MAR_STATUS_AR")
+    val MAR_STATUS_AR :String?,
+    @field:Json(name = "EMP_GENDUR")
+    val EMP_GENDUR :String?,
+    @field:Json(name = "SAL_COMP_CODE_A")
+    val SAL_COMP_CODE_A :String?,
+    @field:Json(name = "COMP_DESC_A_AR")
+    val COMP_DESC_A_AR :String?,
+    @field:Json(name = "COMP_DESC_A_EN")
+    val COMP_DESC_A_EN :String?,
+    @field:Json(name = "SAL_VALUE_A")
+    val SAL_VALUE_A :String?,
+    @field:Json(name = "SAL_COMP_CODE_D")
+    val SAL_COMP_CODE_D :String?,
+    @field:Json(name = "COMP_DESC_D_AR")
+    val COMP_DESC_D_AR :String?,
+    @field:Json(name = "COMP_DESC_D_EN")
+    val COMP_DESC_D_EN :String?,
+    @field:Json(name = "SAL_VALUE_D")
+    val SAL_VALUE_D :String?,
+    @field:Json(name = "SAL_VALUE_NET")
+    val SAL_VALUE_NET :String?,
+    @field:Json(name = "CURRSYMBOL_AR")
+    val CURRSYMBOL_AR :String?,
+    @field:Json(name = "CURRSYMBOL_EN")
+    val CURRSYMBOL_EN :String?,
+    @field:Json(name = "FRACTIONNAME_EN")
+    val FRACTIONNAME_EN :String?,
+    @field:Json(name = "FRACTIONNAME_AR")
+    val FRACTIONNAME_AR :String?,
+    @field:Json(name = "STATUSNAME_AR")
+    val STATUSNAME_AR :String?,
+    @field:Json(name = "STATUSNAME_EN")
+    val STATUSNAME_EN :String?,
+    @field:Json(name = "STATUS_AR")
+    val STATUS_AR :String?,
+    @field:Json(name = "STATUS_EN")
+    val STATUS_EN :String?,
+    @field:Json(name = "EMP_PIC")
+    val EMP_PIC :String?,
+
+)

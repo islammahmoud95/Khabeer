@@ -1,0 +1,38 @@
+package com.task.domain.entities.model.response.user
+
+
+data class User(
+    val EMP_ID :Int?= null,
+    val CUSTOM_ID :String?= null,
+    val EMP_DATA_AR :String?= null,
+    val EMP_DATA_EN :String?= null,
+    val JOBCODE :String?= null,
+    val JOBNAME_AR :String?= null,
+    val JOBNAME_EN :String?= null,
+    val SEC_NAME_AR :String?= null,
+    val SEC_NAME_EN :String?= null,
+    val CONTRACTSTDATE :String?= null,
+    val ATM_ACCOUNT :String?= null,
+    val MAR_STATUS_EN :String?= null,
+    val MAR_STATUS_AR :String?= null,
+    val EMP_GENDUR :String?= null,
+    val SAL_COMP_CODE_A :String?= null,
+    val COMP_DESC_A_AR :String?= null,
+    val COMP_DESC_A_EN :String?= null,
+    val SAL_VALUE_A :String?= null,
+    val SAL_COMP_CODE_D :String?= null,
+    val COMP_DESC_D_AR :String?= null,
+    val COMP_DESC_D_EN :String?= null,
+    val SAL_VALUE_D :String?= null,
+    val SAL_VALUE_NET :String?= null,
+    val CURRSYMBOL_AR :String?= null,
+    val CURRSYMBOL_EN :String?= null,
+    val FRACTIONNAME_EN :String?= null,
+    val FRACTIONNAME_AR :String?= null,
+    val STATUSNAME_AR :String?= null,
+    val STATUSNAME_EN :String?= null,
+    val STATUS_AR :String?= null,
+    val STATUS_EN :String?= null,
+    val EMP_PIC :String?= null,
+
+)
